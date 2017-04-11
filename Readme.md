@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
-* Студент: [Неопознанный енот](https://up.htmlacademy.ru/htmlcss/17/user/409131).
-* Наставник: `Неизвестно`.
+* Студент: [Лилия Смолинская](https://up.htmlacademy.ru/htmlcss/17/user/409131).
+* Наставник: [Геннадий Калиновский](https://up.htmlacademy.ru/htmlcss/17/user/40970).
 
 ---
 
