@@ -3,17 +3,23 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="icon" type="image/png" href="favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="favicon-64x64.png" sizes="64x64">
+    <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16">
   </head>
   <body>
     <header class="main-header">
       <div class="container">
       <nav class="main-navigation">
-          <ul>
-            <li><a href="#">Информация</a></li>
-            <li><a href="#">Фото и видео</a></li>
-            <li class="logo"><a href="img/index-logo.png">Лого</a></li>
-            <li><a href="#">Карта штата</a></li>
-            <li><a href="#">Гостиницы</a></li>
+          <ul class="menu">
+            <li><a class="active" href="index.html">Информация</a></li>
+            <li><a class="disabled" href="#">Фото и видео</a></li>
+            <li class="logo"><a href="index.html">Logo</a></li>
+            <li><a href="#" class="disabled">Карта штата</a></li>
+            <li><a href="hotels.html">Гостиницы</a></li>
           </ul>
       </nav>
       </div>
@@ -22,7 +28,7 @@
      <main class="container">
        <div class="welcome">
        <div class="welcome-text"></div>
-       <div class="welcome-mask"><img src="http://placehold.it/150x100" width="1200" alt="Седона - городок в Аризоне"></div>
+       <div class="welcome-mask"><img src="img/index-bgr-mask1200.png" width="1200" alt="Седона - городок в Аризоне"></div>
        </div>
 <section class="promo">
            <div class="promo-header">
@@ -41,7 +47,7 @@
         </div>
         <div class="col col2">
           <div class="promo-img-wrapper">
-            <img src="http://placehold.it/150x100" width="800" height="255" alt="Седона - настоящий городок">
+            <img src="img/promo-img-1.jpg" width="800" height="255" alt="Седона - настоящий городок">
           </div>
         </div>
 
@@ -70,7 +76,7 @@
     <div class="row">
         <div class="col col2">
           <div class="promo-img-wrapper">
-            <img src="http://placehold.it/150x100" width="800" height="255" alt="Мост дьявола">
+            <img src="img/promo-img-2.jpg" width="800" height="255" alt="Мост дьявола">
           </div>
         </div>
         <div class="col col1">
@@ -163,15 +169,15 @@
       </div>
       <div class="col col1">
         <div class="footer-social">
-          <a class="social-btn social-btn-vk" href="#">Твитер</a>
-          <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
-          <a class="social-btn social-btn-inst" href="#">Youtube</a>
+          <a href="https://twitter.com/" class="social-icon tw" target="blank">Twitter</a>
+          <a href="https://www.facebook.com/" class="social-icon fb" target="blank">Facebook</a>
+          <a href="http://www.youtube.com/" class="social-icon youtube" target="blank">Youtube</a>
         </div>
       </div>
       <div class="col col1">
       <div class="footer-copyright">
         <p>Website by
-        <a href="img/index-logo.png">Лого Academy</a>HTML Academy</p>
+        <a href="img/index-logo.png">Лого Academy</a> for <a href="http://htmlacademy.ru/" class="academy" target="blank">HTML Academy</a></p>
       </div>
       </div>
     </footer>

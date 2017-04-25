@@ -3,19 +3,26 @@
 <head>
   <meta charset="UTF-8">
   <title>Sedona / Catalog</title>
+  <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="style/main.css">
+  <link rel="icon" type="image/png" href="favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="favicon-64x64.png" sizes="64x64">
+  <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16">
 </head>
 <body>
 <header class="main-header">
   <div class="container">
   <nav class="main-navigation">
         <ul class="menu">
-          <li><a href="#">Информация</a></li>
-          <li><a href="#">Фото и видео</a></li>
+          <li><a href="index.html">Информация</a></li>
+          <li><a href="#" class="disabled">Фото и видео</a></li>
           <li class="logo"><a href="index.html">Logo</a></li>
-          <li><a href="#">Карта штата</a></li>
-          <li><a href="hotels.html">Гостиницы</a></li>
+          <li><a href="#" class="disabled">Карта штата</a></li>
+          <li><a href="catalog.html" class="active">Гостиницы</a></li>
         </ul>
-      </nav>
+  </nav>
+</div>
 </header>
 
     <main class="container">
@@ -180,15 +187,15 @@
       </div>
       <div class="col col1">
         <div class="footer-social">
-          <a class="social-btn social-btn-vk" href="#">Твитер</a>
-          <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
-          <a class="social-btn social-btn-inst" href="#">Youtube</a>
+          <a href="https://twitter.com/" class="social-icon tw" target="_blank">Twitter</a>
+          <a href="https://www.facebook.com/" class="social-icon fb" target="_blank">Facebook</a>
+          <a href="http://www.youtube.com/" class="social-icon youtube" target="_blank">Youtube</a>
         </div>
       </div>
       <div class="col col1">
         <div class="footer-copyright">
           <p>Website by
-          <a href="img/index-logo.png">Лого Academy</a>HTML Academy</p>
+          <a href="img/index-logo.png">Лого Academy</a> for <a href="http://htmlacademy.ru/" class="academy" target="_blank">HTML Academy</a></p>
         </div>
       </div>
     </footer>
