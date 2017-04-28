@@ -30,16 +30,16 @@
        <div class="welcome-text"></div>
        <div class="welcome-mask"><img src="img/index-bgr-mask1200.png" width="1200" alt="Седона - городок в Аризоне"></div>
        </div>
-<section class="promo">
+       <section class="promo">
            <div class="promo-header">
-             <p class="promo-header-title">Седона — небольшой городок в Аризоне, заслуживающий большего!</p>
-             <p class="promo-header-text">Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
+             <h1>Седона — небольшой городок в Аризоне, заслуживающий большего!</h1>
+             <h2>Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</h2>
            </div>
 
         <div class="row">
         <div class="col col1">
           <div class="feature big">
-            <p class="promo-title">Настоящий городок</p>
+            <h3>Настоящий городок</h3>
             <p class="promo-text number">№1</p>
             <p class="promo-text">Седона не аттракцион для туристов, там течет своя жизнь</p>
           </div>
@@ -54,20 +54,20 @@
         <div class="row">
         <div class="col col1">
           <div class="feature small">
-            <p class="promo-title icon accommodation">Жилье</p>
+            <h3>Жилье</h3>
             <p class="promo-text">Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
           </div>
         </div>
         </div>
         <div class="col col1">
           <div class="feature small icon food">
-            <p class="promo-title">Еда</p>
+            <h3>Еда</h3>
             <p class="promo-text">Всегда заказывая фирменный бургер, Вы не разочаруетесь!</p>
           </div>
         </div>
         <div class="col col1">
           <div class="feature small icon souvenirs">
-            <p class="promo-title">Сувениры</p>
+            <h3>Сувениры</h3>
             <p class="promo-text">Не только китайского, но и местного производства!</p>
           </div>
         </div>
@@ -81,7 +81,7 @@
         </div>
         <div class="col col1">
           <div class="feature big">
-            <p class="promo-title">Там есть мост дьявола</p>
+            <h3>Там есть <br> мост дьявола</h3>
             <p class="promo-text number">№2</p>
             <p class="promo-text">Да, по нему можно пройти! Если конечно вы осмелитесь</p>
           </div>
@@ -91,21 +91,21 @@
     <div class="row">
         <div class="col col1">
           <div class="feature grey">
-            <p class="promo-title">Небольшая площадь</p>
+            <h3>Небольшая площадь</h3>
             <p class="promo-text number">№3</p>
             <p class="promo-text">Все достопримеча&shy;тельности находятся очень близко</p>
           </div>
         </div>
         <div class="col col1">
           <div class="feature grey">
-            <p class="promo-title">Красивая дорога</p>
+            <h3>Красивая дорога</h3>
             <p class="promo-text number">№4</p>
             <p class="promo-text">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
           </div>
         </div>
         <div class="col col1">
           <div class="feature grey">
-            <p class="promo-title">Мало туристов</p>
+            <h3>Мало туристов</h3>
             <p class="promo-text number">№5</p>
             <p class="promo-text">Большинство едет в Гранд Каньон и толпится там</p>
           </div>
@@ -115,48 +115,42 @@
 
 
     <section class="search">
-        <p class="search-title">Заинтересовались?</p>
+        <h2>Заинтересовались?</h2>
         <p class="search-text">Укажите предполагаемые даты поездки,<br> и мы покажем вам лучшие предложения гостиниц в Седоне</p>
         <div class="map"></div>
 
+        <article class="hotel-search-box">
         <form action="#" method="get" class="search-form">
           <h2 class="search-form-title">Поиск гостиницы в Седоне</h2>
-          <div class="search-form-content">
-            <p>
-              <label for="checkin">Дата заезда:</label>
-              <span class="date-span">
-                <input type="text" id="checkin" class="date-input" value="24 апреля 2015">
-                <label for="checkin" class="search-form-calendar">Date</label>
-              </span>
-            </p>
-            <p>
-              <label for="checkout">Дата выезда:</label>
-              <span>
-                <input type="text" id="checkout" class="date-input" value="4 июля 2015">
-                <label for="checkout" class="search-form-calendar">Date</label>
-              </span>
-            </p>
-
-            <p class="adults">
-              <label for="adults">Взрослые:</label>
-              <span class="input-wrapper">
-                <a class="search-form-minus" href="#">Less</a>
-                <input class="people-number" id="adults" type="text" pattern="[0-9]*" value="2" min="0">
-                <a class="search-form-plus" href="#">More</a>
-              </span>
-            </p>
-            <p class="children">
-              <label for="children">Дети:</label>
-              <span class="input-wrapper">
-                <a class="search-form-minus" href="#">Less</a>
-                <input class="people-number" id="children" type="text" pattern="[0-9]*" value="0" min="0">
-                <a class="search-form-plus" href="#">More</a>
-              </span>
-            </p>
-
-            <input type="submit" value="Найти" disabled>
-          </div>
+                      <div class="form-layout-row clearfix">
+                        <label for="date-in" class="to-left" >Дата заезда:</label>
+                        <input id="date-in" class="date-in to-right" type="text" placeholder="24 апреля 2014"/>
+                      </div>
+                      <div class="form-layout-row dates clearfix">
+                        <label for="date-out" class="to-left">Дата выезда:</label>
+                        <input id="date-out" class="date-out to-right" type="text" placeholder="4 июля 2014"/>
+                      </div>
+                      <div class="form-layout-row clearfix">
+                        <div class="form-layout-row-half to-left clearfix">
+                          <label for="count-adults" class="to-left">Взрослые:</label>
+                          <div class="form-layout-row-half-btns to-right">
+                            <input class="btn-minus" type="button" value="-">
+                            <input id="count-adults" type="text" placeholder="2">
+                            <input class="btn-plus" type="button" value="+">
+                          </div>
+                        </div>
+                        <div class="form-layout-row-half to-right clearfix">
+                          <label for="count-children" class="count-children to-left">Дети:</label>
+                          <div class="form-layout-row-half-btns to-right">
+                            <input class="btn-minus" type="button" value="-">
+                            <input id="count-children" type="text" placeholder="0">
+                            <input class="btn-plus" type="button" value="+">
+                          </div>
+                        </div>
+                      </div>
+                      <input class="btn-search blue-btn" type="submit" value="Найти">
         </form>
+        </article>
       </section>
     </main>
 
