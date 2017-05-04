@@ -6,26 +6,22 @@
   <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=latin,cyrillic' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="style/main.css">
   <link rel="icon" type="image/png" href="favicon-96x96.png" sizes="96x96">
-  <link rel="icon" type="image/png" href="favicon-64x64.png" sizes="64x64">
-  <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32">
-  <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16">
 </head>
 <body>
-<header class="main-header">
-  <div class="container">
-  <nav class="main-navigation">
+  <div class="all">
+  <header class="main-header">
+    <nav class="main-navigation">
         <ul class="menu">
-          <li><a href="index.html">Информация</a></li>
-          <li><a href="#" class="disabled">Фото и видео</a></li>
-          <li class="logo"><a href="index.html">Logo</a></li>
-          <li><a href="#" class="disabled">Карта штата</a></li>
-          <li><a href="catalog.html" class="active">Гостиницы</a></li>
+          <li class="menu-item"><a class="active" href="#">Информация</a></li>
+          <li class="menu-item"><a class="disabled" href="#">Фото и видео</a></li>
+          <li class="menu-item"><a href="#" class="disabled">Карта штата</a></li>
+          <li class="menu-item"><a href="catalog.html">Гостиницы</a></li>
         </ul>
-  </nav>
-</div>
-</header>
+        <a class="menu-link" href="index.html"><img src="img/logo.png" alt="Седона"/></a>
+    </nav>
+  </header>
 
-    <main class="container">
+    <main class="content">
       <section class="filter">
         <div class="col col2">
           <form action="#" method="get" class="filter-category">
@@ -176,28 +172,26 @@
 </section>
     </main>
 
-    <footer class="main-footer">
-      <div class="col col1">
-        <a href="http://instagram.com/" class="hashtag" target="_blank">#Visitsedona</a>
-      </div>
-      <div class="col col1">
-        <div class="footer-social">
-          <a href="https://twitter.com/" class="social-icon tw" target="_blank">Twitter</a>
-          <a href="https://www.facebook.com/" class="social-icon fb" target="_blank">Facebook</a>
-          <a href="http://www.youtube.com/" class="social-icon youtube" target="_blank">Youtube</a>
-        </div>
-      </div>
-      <div class="col col1">
-        <div class="footer-copyright">
-          <p>Website by
-          <a href="img/index-logo.png">Лого Academy</a> for <a href="http://htmlacademy.ru/" class="academy" target="_blank">HTML Academy</a></p>
-        </div>
-      </div>
+    <footer class="footer">
+      <strong class="hashtag">#VISITSEDONA</strong>
+      <ul class="social">
+        <li>
+          <a href="https://twitter.com/" class="social-link icon icon-twitter">Twitter</a>
+        </li>
+        <li>
+          <a href="https://www.facebook.com/" class="social-link icon icon-facebook">Facebook</a>
+        </li>
+        <li>
+          <a href="https://www.youtube.com/" class="social-link icon icon-youtube">Youtube</a>
+        </li>
+      </ul>
+      <p class="website-by">
+        <span class="website-by-text">Website by</span>
+        <a href="https://htmlacademy.ru/intensive/htmlcss" class="website-by-logo">
+          <img src="img/logo-academy.png" alt="logo-htmlacademy">
+        </a>
+      </p>
     </footer>
-
-  <script src="js/jquery-1.11.1.min.js"></script>
-  <script type="text/javascript" src="js/jquery.nouislider.all.min.js"></script>
-  <script src="js/main.js"></script>
-
+</div>
 </body>
 </html>
